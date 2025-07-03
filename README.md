@@ -2,7 +2,13 @@
 
 This repository contains the code and data used for my Bachelor Thesis (ВКР) on the topic of media representations of labor migrants in Russian online news portals from 2017 to 2025. The project employs modern computational text analysis techniques, including sentiment analysis and critical discourse analysis (CDA).
 
-```text 📦 vkr/ ┣ 📂 data/ # Collected news articles (CSV files) ┣ 📂 models/ # Pretrained transformer models (local) ┣ 📂 notebooks/ # Jupyter notebooks with exploratory analysis ┣ 📂 src/ # Python scripts for data parsing and analysis ┣ 📜 requirements.txt # Python dependencies ┗ 📜 README.md ```
+vkr/
+├── python/             # Collected news articles (CSV files)
+├── models/           # Pretrained transformer models (local)
+├── notebooks/        # Jupyter notebooks with exploratory analysis
+├── src/              # Python scripts for data parsing and analysis
+├── requirements.txt  # Python dependencies
+└── README.md
 
 🚀 Features
 Web scraping: Collects news articles containing keywords related to migrants from sites such as rbc.ru and rt.com using Selenium.
